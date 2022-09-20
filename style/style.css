@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+body{
+    font-family: "Gilroy-Medium";
+}
+header, main, footer{
+    margin: 10px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header__list-link{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    transition: .8s;
+}
+
+
+.header__nav{
+    position: relative;
+    margin-bottom: 80px;
+}
+.header__nav::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    border: 1px solid #828282;
+    bottom: -32px;
+}
+.header__nav-mobile{
+	display: none;
+}
+.header__nav-toggle{
+	display: none;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+.header__logo{
+    max-width: 124px;
+}
+.header__about{
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.header__lang{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    position: relative;
+    right: -26px;
+}
+.header__lang span{
+    cursor: pointer;
+}
+.lang_en{
+    color: #000;
+}
+.header__banner{
+    width: 100%;
+}
+.header__banner-mobile{
+	display: none;
+}
+.main{
+    padding-top: 104px;
+}
+.about{
+    background: #F6F6F6;
+    padding: 120px 107px;
+    text-align: center;
+}
+.about__wrapper{
+    max-width: 485px;
+    margin: 0 auto;
+}
+.about__title{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 25px;
+}
+.about__text{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 40px;
+}
+.about__text:last-child{
+    margin-bottom: 0;
+}
+.skills{
+    text-align: center;
+    padding: 91px 0;
+}
+.skills__title{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 69px;
+}
+.skills__text{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 83px;
+}
+.skills__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills__list-item-img{
+    max-width: 89px;
+    margin-bottom: 24px;
+}
+.skills__list-item-text{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    max-width: 80px;
+    margin: 0 auto 40px;
+}
+.skills__list-item-points{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills__list-item-points svg{
+    display: block;
+}
+.skills__list-item-points svg + svg{
+    margin-left: 9px;
+}
+.skill-star--active{
+    fill: #070707;
+}
+.skill-star{
+    fill:#E5E5E5;
+}
+.portfolio{
+    text-align: center;
+    padding: 132px 77px;
+    background: #F6F6F6;
+}
+.portfolio__title{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+}
+.portfolio__item-img{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.portfolio__item-link{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: underline;
+    color: #070707;
+    margin-bottom: 99px;
+}
+
+.portfolio__item-link:last-child{
+    margin-bottom: 0;
+}
+.contacts{
+    text-align: center;
+    padding: 133px 0 202px;
+}
+.contacts__title{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 25px;
+}
+.contacts__text{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    max-width: 275px;
+    margin: 0 auto 30px;
+}
+.contacts__btn{
+    background: #070707;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    max-width: 182px;
+    border-radius: 30px;
+    margin: 0 auto 86px;
+}
+.contacts__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts__list-img{
+    max-width: 40px;
+}
+.contacts__list-link + .contacts__list-link{
+    margin-left: 112px;
+}

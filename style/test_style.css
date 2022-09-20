@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-item{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+@media (max-width: 1600px) {
+    .flex-item{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width: 1300px) {
+    .flex-item{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 400px) {
+    .flex{
+        flex-direction: column;
+    }
+    .flex-item{
+        margin-bottom: 20px;
+    }
+}
